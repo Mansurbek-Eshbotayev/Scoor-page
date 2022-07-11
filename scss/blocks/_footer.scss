@@ -1,0 +1,141 @@
+
+.site-footer__top{
+  padding: 102px 0;
+  background-image: url(../images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-footer__top__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-footer__wrap{
+  width: 415px;
+}
+
+.site-footer__title{
+  margin: 0;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: -2.14286px;
+color: #FFFFFF;
+}
+
+.site-footer__info{
+  display: flex;
+  align-items: center;
+}
+
+.story__info{
+  display: inline-block;
+  padding: 8px 15px;
+  margin-right: 18px;
+  background-color: #E5ECF4;
+border-radius: 4px;
+display: flex;
+align-items: center;
+text-decoration: none;
+}
+
+.story__info:last-child{
+  margin-right: 0;
+}
+
+.story__info:nth-child(1)::before{
+  content: "";
+  width: 25px;
+  height: 28px;
+  background-image: url(../images/apple.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display:inline-block;
+  margin-right: 10px;
+}
+
+.company__text{
+  display: block;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 15px;
+letter-spacing: -0.446429px;
+color: #495567;
+}
+
+.company__title{
+  display: block;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.892857px;
+color: #495567;
+}
+
+// site-footer__bottom
+
+.site-footer__bottom{
+  padding: 35px 0px;
+  background-color: #333A44;
+}
+
+.down__inner{
+  display: flex;
+  align-items: center;
+}
+
+.down__logo{
+  margin-right: 58px;
+}
+
+.down__list{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.down__item{
+  margin-right: 32px;
+}
+
+.down__item:last-child{
+  margin-right: 0px;
+}
+
+.down__link{
+  text-decoration: none;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+color: #939CAA;
+transition: all 0.3s ease;
+}
+
+.down__link:hover{
+  color: #FCB72B;
+}
+
+.icon__link{
+  text-decoration: none;
+  margin-right: 24px;
+  color:  #FCB72B;
+  transition: all 0.3s ease;
+}
+
+.icon__link:hover{
+color: #E5ECF4;
+}
+
+.icon__link:last-child{
+  margin-right: 0;
+}

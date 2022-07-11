@@ -1,0 +1,161 @@
+.services{
+  padding-bottom: 180px;
+}
+
+.services__item{
+  padding: 66px 0;
+  margin-bottom: 140px;
+}
+
+.services__item:nth-child(1){
+  position: relative;
+}
+
+.services__item:nth-child(1)::after{
+  content: "";
+  width: 445px;
+  height: 445px;
+  top: 0px;
+  right: -550px;
+  background-image: url(../images/Mask.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+.services__item:nth-child(2){
+  position: relative;
+}
+
+.services__item:nth-child(2)::before{
+  content: "";
+  width: 445px;
+  height: 445px;
+  top: 0px;
+  left: -560px;
+  background-image: url(../images/Mask.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+.services__item:nth-child(3){
+  position: relative;
+}
+
+.services__item:nth-child(3)::after{
+  content: "";
+  width: 445px;
+  height: 445px;
+  top: 0px;
+  right: -550px;
+  background-image: url(../images/Mask.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+.services__item:nth-child(2){
+  display: flex;
+  justify-content: flex-end;
+}
+
+.order__info{
+  width: 445px;
+}
+
+.order__info--one{
+ position: relative;
+}
+
+.order__info--one::after{
+  content: "";
+  width: 747px;
+  height: 498px;
+  top: -65px;
+  left: 568px;
+  background-image: url(../images/servis-one.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 3;
+}
+
+.order__info--two{
+  position: relative;
+ }
+ 
+ .order__info--two::before{
+   content: "";
+       width: 995px;
+    height: 445px;
+    top: -65px;
+    right: 690px;
+   background-image: url(../images/servis-two.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   z-index: 3;
+ }
+
+ .order__info--thri{
+  position: relative;
+ }
+ 
+ .order__info--thri::after{
+   content: "";
+       width: 990px;
+    height: 445px;
+    top: -65px;
+    left: 686px;
+   background-image: url(../images/servis-thri.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: absolute;
+   z-index: 3;
+ }
+
+.order__title{
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: -2.14286px;
+color: #495567;
+}
+
+.order__text{
+  margin: 0;
+  margin-bottom: 40px;
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+.set-link{
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+border: 3px solid transparent;
+padding: 14px 44px;
+color: #FFFFFF;
+background-color: #FCB72B;
+transition: all 0.3s ease;
+}
+
+.set-link:hover{
+  color: #FCB72B;
+  border-color: #FCB72B;
+  background-color: transparent;
+}

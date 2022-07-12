@@ -1,0 +1,121 @@
+.location__down{
+  padding: 120px 0;
+}
+
+.location__map{
+  height: 543px;
+  background-image: url(../images/map.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.map__link{
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+padding: 22px 53px;
+letter-spacing: -1.07143px;
+color: #495567;
+background-color: #FCB72B;
+position: relative;
+}
+
+.map__link::after{
+  content: "";
+  width: 32px;
+  height: 16px;
+  bottom: -16px;
+  left: 88px;
+  background-image: url(../images/Shape.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.map__link--york{
+  position: absolute;
+  top: 66px;
+  left: 144px;
+}
+
+.map__link--london{
+  position: absolute;
+  top: 17px;
+  left: 401px;
+}
+
+.map__link--yoko{
+  position: absolute;
+  top: 79px;
+  left: 836px;
+}
+
+.map__link--jakarta{
+  position: absolute;
+  top: 254px;
+    right: 122px;
+}
+
+.location__listed{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.listed__wrap{
+  width: 350px;
+}
+
+.listed__title{
+  margin: 0;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: -2.14286px;
+color: #495567;
+}
+
+.listed__cover{
+  width: 445px;
+}
+
+.listed__text{
+  margin: 0;
+  font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+color: #939CAA;
+}
+
+.listed__link{
+  text-decoration: none;
+  text-decoration: none;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  border: 3px solid transparent;
+  padding: 14px 44px;
+  color: #FFFFFF;
+  background-color: #FCB72B;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.listed__link:hover {
+  color: #FCB72B;
+  border-color: #FCB72B;
+  background-color: transparent;
+}

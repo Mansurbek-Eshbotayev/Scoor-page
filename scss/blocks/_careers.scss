@@ -1,0 +1,25 @@
+
+.order__info--careers::after {
+  content: "";
+  width: 747px;
+  height: 498px;
+  top: -65px;
+  left: 568px;
+  background-image: url(../images/man.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 3;
+}
+
+.careers__top{
+  padding: 62px 0;
+  background-image: url(../images/careers.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.careers__item{
+  margin-bottom: 0;
+}

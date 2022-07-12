@@ -1,0 +1,76 @@
+
+.about__top{
+  padding: 62px 0;
+  background-image: url(../images/about-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about__top::after{
+  content: "";
+  bottom: 61px;
+  right: -6px;
+  width: 242px;
+  height: 63px;
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+}
+
+.about__title{
+  margin: 0;
+  font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 56px;
+letter-spacing: -2.5px;
+color: #FFFFFF;
+}
+
+.about__down{
+  padding: 120px 0 160px 0;
+}
+
+.about__list--margin{
+  padding-bottom: 0;
+  margin-bottom: 0
+}
+
+.services__item--about{
+  margin-top: 250px;
+  margin-bottom: 0;
+}
+
+.order__info--about::after {
+  content: "";
+  width: 747px;
+  height: 498px;
+  top: -65px;
+  left: 568px;
+  background-image: url(../images/about-phone.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 3;
+}
+
+.order__info--tren::before {
+  content: "";
+  width: 995px;
+  height: 445px;
+  top: -65px;
+  right: 690px;
+  background-image: url(../images/about-tren.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: 3;
+}
+
+
+
+
+

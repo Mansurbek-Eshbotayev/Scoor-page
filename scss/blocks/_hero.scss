@@ -6,20 +6,23 @@
   background-size: cover;
 }
 
-.hero::after{
+
+
+.hero__info{
+  width: 500px;
+  position: relative;
+}
+
+.hero__info::after{
   content: "";
-  bottom: -101px;
-    right: -53px;
-  width: 234px;
+  bottom: -5px;
+  right: -870px;
+  width: 242px;
   height: 63px;
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-}
-
-.hero__info{
-  width: 500px;
 }
 
 
